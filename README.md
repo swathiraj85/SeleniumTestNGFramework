@@ -74,4 +74,7 @@ SeleniumTestNGDockerFramework/
 ## Prerequisites for Local Setup and Execution
 - Install Java JDK 1.11 and above
  - Apache Maven
+ - Clone and Import the Maven project on your directory.
+ - Build dependencies on your preferred IDE.
+ -  Execute as Maven project using mvn clean test
 
