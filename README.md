@@ -14,7 +14,7 @@ Before you begin, ensure Docker is installed.
 ## Setup and Execution
 - Clone this repository to your local machine:  git clone using https or ssh.
   -   ssh - "git@github.com:swathiraj85/SeleniumTestNGFramework.git"
-  -   https - "https://github.com/swathiraj85/SeleniumTestNGFramework.git@
+  -   https - https://github.com/swathiraj85/SeleniumTestNGFramework.git
 - Navigate to the cloned directory cd <repository_folder>
 -  Build the Docker image for the test environment using below:  
    docker build -t=swathiraj85/selenium-testng-docker .
