@@ -16,8 +16,6 @@ Before you begin, ensure Docker is installed.
   -   ssh - git@github.com:swathiraj85/SeleniumTestNGFramework.git
   -   https - https://github.com/swathiraj85/SeleniumTestNGFramework.git
 - Navigate to the cloned directory cd <repository_folder>
--  Build the Docker image for the test environment using below:  
-   docker build -t=swathiraj85/selenium-testng-docker .
 -  Run the Docker Compose file to start the test environment:
     -   The repository has two compose files because the selenium hub image for M1 Mac is different to other machines due to issues with setting up grid.The default compose file           is for M1 Mac.Run the command
            "docker compose up"
