@@ -17,10 +17,10 @@ Before you begin, ensure Docker is installed.
 -  Build the Docker image for the test environment using below:  
    docker build -t=swathiraj85/selenium-testng-docker .
 -  Run the Docker Compose file to start the test environment:
-    -   The repository has two compose files because the selenium hub image for M1 Mac is different to other machines.The default compose file is for M1 Mac.
-        Run the command  - docker-compose up -d
+    -   The repository has two compose files because the selenium hub image for M1 Mac is different to other machines due to issues with setting up grid.The default compose file           is for M1 Mac.Run the command
+           "docker-compose up -d"
     -  If you want to run the docker compose for other machines,use the following command  
-         Run the command  - docker compose -f docker-compose-windows.yaml up
+         Run the command  - "docker compose -f docker-compose-windows.yaml up"
 -  The Docker logs  display the test status.
 -  You can watch the live execution as mentioned on "How to view live execution on Selenium grid 4" section.
 -  If the test script execution is complete, "exited with code 1" is shown in console.Press Control C to kill the container because the selenium grid is still running on the 
