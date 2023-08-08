@@ -1,5 +1,5 @@
 # SeleniumTestNGFramework
-A repository to automate the test scripts using Selenium Test NG Framework integrated with Docker Selenium Grid for executions.This repository contains a sample Test Automation Framework that uses Selenium for web automation, Maven for build and dependency management, TestNG for test execution, and Docker for containerized execution.
+A repository to automate the test scripts using Selenium Test NG Framework integrated with Docker Selenium Grid for executions.This repository contains a sample Test Automation Framework that uses Java,Selenium for web automation, Maven for build and dependency management, TestNG for test execution, and Docker for containerized execution.
 
 ## Features
 
