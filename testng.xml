@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RyanairFlightBookingTestSuite" verbose="1" parallel="methods" thread-count="1">
+  <test name="BookFlightTests">
+    <classes>
+      <class name="BookFlightTest"></class>
+    </classes>
+  </test>
+</suite>

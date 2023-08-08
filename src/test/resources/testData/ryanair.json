@@ -1,0 +1,31 @@
+{
+  "flightDetails": {
+    "tripType": "Return",
+    "origin": "Dublin",
+    "destination": "Barcelona",
+    "departureDate": "08 Oct 2023",
+    "returnDate": "12 Oct 2023",
+    "fareType": "regular"
+  },
+  "passengerCounts": {
+    "adults": 2,
+    "teens": 1
+  },
+  "passengers": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "title": "Mr"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "title": "Ms"
+    },
+    {
+      "firstName": "Jim",
+      "lastName": "Joe",
+      "title": "Mr"
+    }
+  ]
+}

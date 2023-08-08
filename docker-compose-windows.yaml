@@ -1,0 +1,25 @@
+---
+version: "3"
+services:
+  hub:
+    image: selenium/hub:4.8.2
+    ports:
+      - 4444:4444
+  chrome:
+    image: selenium/node-chrome:4.8.2
+    shm_size: 2g
+    depends_on:
+      - hub
+    environment:
+      - SE_EVENT_BUS_HOST=hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+  flight-search:
+    image: swathiraj85/selenium-testng-docker
+    depends_on:
+      - chrome
+    environment:
+      - HUB_HOST=hub
+      - BROWSER=chrome
+    volumes:
+      - ./reports:/usr/share/ryanair/reports
