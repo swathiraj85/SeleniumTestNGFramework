@@ -38,33 +38,23 @@ Before you begin, ensure Docker is installed.
 ## Project Structure
 The project structure is organized as follows:
 SeleniumTestNGDockerFramework/
-│
-├─ src/
-│ ├─ main/
-│ │ ├─ java/
-│ │ │ └─ com.ryanair.pages/
-│ │ │ └─ browserManager/
-│ │ │ └─ browserOptions/
-│ │ │ └─ utilities/
-│ │
-│ └─ test/
-│ ├─ java/
-│ │ └─ BaseTest.java
-│ │
-│ └─ resources/
-│ └─ config/config.properties
-│ └─ testData/
-│ └─ testdata.json
-│
-├─ reports/
-│
-├─ Dockerfile
-├─ docker-compose.yaml
-├─ docker-compose-windows.yaml
-├─ healthcheck.sh
-├─ README.md
-├─ pom.xml
-└─ ...
+- src/main/java/
+  - pages
+  - browserManager
+  - browserOptions
+  - utilities
+- src/test/java/
+  - BaseTest.java
+- src/test/resources/ 
+  - config/config.properties
+  - testData/testdata.json
+- reports/
+- Dockerfile
+- docker-compose.yaml
+- docker-compose-windows.yaml
+- healthcheck.sh
+- README.md
+- pom.xml
 
 ## Configuration
 - Modify config.properties in the src/test/resources/config directory to configure your environment settings.
